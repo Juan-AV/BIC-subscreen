@@ -2818,7 +2818,7 @@
     },
     "rsconnect": {
       "Package": "rsconnect",
-      "Version": *,
+      "Version": "*",
       "Source": "Repository",
       "Priority": null,
       "Depends": [

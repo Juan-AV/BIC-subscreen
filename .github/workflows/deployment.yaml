@@ -51,8 +51,8 @@ jobs:
       - name: Install renv dependencies
         uses: r-lib/actions/setup-renv@v2
       
-      - name: Install extra dependencies
-        run: Rscript -e 'renv::install("rsconnect")'
+     # - name: Install extra dependencies
+       # run: Rscript -e 'renv::install("rsconnect")'
 
       - name: Create manifest.json
         shell: Rscript {0}
